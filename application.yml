@@ -15,6 +15,7 @@ eureka:
 mysql:
   client:
     server: localhost
+    sslmode: none
 redis:
   client:
     host: localhost
