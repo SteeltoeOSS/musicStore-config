@@ -19,3 +19,8 @@ mysql:
 redis:
   client:
     host: localhost
+management: 
+  endpoints: 
+    path: /cloudfoundryapplication
+    cloudfoundry: 
+      validateCertificates: false
