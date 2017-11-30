@@ -7,9 +7,6 @@ Logging:
     Default: Information
     System: Information
     Microsoft: Information
-    Steeltoe.Discovery: Debug
-    Pivotal.Discovery: Debug
-
 eureka:
   client:
     serviceUrl: http://localhost:8761/eureka/
