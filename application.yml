@@ -4,9 +4,11 @@ AppSettings:
 Logging: 
   IncludeScopes: false
   LogLevel: 
-    Default: Debug
+    Default: Information
     System: Information
     Microsoft: Information
+    Steeltoe.Discovery: Debug
+    Pivotal.Discovery: Debug
 
 eureka:
   client:
