@@ -4,9 +4,9 @@ AppSettings:
 Logging: 
   IncludeScopes: false
   LogLevel: 
-    Default: Information
-    System: Information
-    Microsoft: Information
+    Default: Warning
+    System: Warning
+    Microsoft: Warning
 eureka:
   client:
     serviceUrl: http://localhost:8761/eureka/
