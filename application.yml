@@ -16,9 +16,6 @@ mysql:
   client:
     server: localhost
     sslmode: none
-redis:
-  client:
-    host: localhost
 management: 
   endpoints: 
     path: /cloudfoundryapplication
