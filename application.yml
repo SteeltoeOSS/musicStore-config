@@ -4,7 +4,7 @@ AppSettings:
 Logging: 
   IncludeScopes: false
   LogLevel: 
-    Default: Information
+    Default: Debug
     System: Information
     Microsoft: Information
 
