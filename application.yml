@@ -6,7 +6,7 @@ Logging:
   LogLevel: 
     Default: Debug
     System: Warning
-    Microsoft: Warning
+    Microsoft: Debug
     Steeltoe: Debug
     Pivotal: Debug
 eureka:
