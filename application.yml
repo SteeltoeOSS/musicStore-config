@@ -4,11 +4,9 @@ AppSettings:
 Logging: 
   IncludeScopes: false
   LogLevel: 
-    Default: Debug
+    Default: Warning
     System: Warning
-    Microsoft: Debug
-    Steeltoe: Debug
-    Pivotal: Debug
+    Microsoft: Warning
 eureka:
   client:
     serviceUrl: http://localhost:8761/eureka/
