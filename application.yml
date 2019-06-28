@@ -17,6 +17,5 @@ mysql:
     sslmode: none
 management: 
   endpoints: 
-    path: /cloudfoundryapplication
     cloudfoundry: 
       validateCertificates: false
